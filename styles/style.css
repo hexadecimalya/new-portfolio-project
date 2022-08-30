@@ -1,10 +1,40 @@
 
 /* font-family: 'Noto Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
+:root{
+  --secondary-font: 'Roboto Mono', monospace;
+  --primary-color: #001343;
+}
 
 body {
-    background-color: rgb(20, 49, 16);
     font-family: 'Noto Sans', sans-serif;
     color: aliceblue;
   }
   
+  h1{
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+
+  .main-header{
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+
+  .main-header p{
+    font-size:2.5rem;
+    margin-left: 6rem;
+    text-align: left;
+  }
+
+  .main-header h2{
+    font-size: 1.8rem;
+  }
+
+  .btn-branding{
+    margin: 2rem;
+    background-color: aliceblue;
+    padding: 10px 25px;
+    text-transform: uppercase;
+  }
