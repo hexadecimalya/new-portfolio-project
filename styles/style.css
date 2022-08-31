@@ -1,40 +1,103 @@
-
 /* font-family: 'Noto Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
-:root{
-  --secondary-font: 'Roboto Mono', monospace;
+:root {
+  --secondary-font: "Roboto Mono", monospace;
   --primary-color: #001343;
+  --secondary-color: #fffcee;
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
-    color: aliceblue;
-  }
-  
-  h1{
-    font-family: var(--secondary-font);
-    font-weight: 900;
-    font-size: 3.5rem;
-  }
+  font-family: "Noto Sans", sans-serif;
+  color: var(--secondary-color);
+}
 
+h1 {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.main-header {
+  text-align: center;
+  background: linear-gradient(
+    177deg,
+    rgb(2, 0, 36) 23%,
+    rgba(0, 19, 67, 1) 48%,
+    rgba(64, 0, 255, 1) 98%
+  );
+}
+
+.main-header p {
+  font-size: 2.5rem;
+  margin-left: 6rem;
+  text-align: left;
+}
+
+.navbar-style{
+  background-color: #020024;
+}
+
+.main-header h2 {
+  font-size: 1.8rem;
+}
+img {
+  transition: all 200ms ease-in-out;
+}
+
+img:hover {
+  filter: contrast(110%);
+}
+
+.btn-branding {
+  margin: 2rem;
+  background-color: var(--secondary-color);
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+
+.h2-styled {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.app-description {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.btn-style-classic {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 768px){
   .main-header{
-    text-align: center;
-    background-color: var(--primary-color);
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .main-header h2 {
+    font-size: 1.5rem;
   }
 
-  .main-header p{
-    font-size:2.5rem;
-    margin-left: 6rem;
-    text-align: left;
-  }
-
-  .main-header h2{
+  .main-header p {
     font-size: 1.8rem;
+    margin-left: 1rem;
   }
 
-  .btn-branding{
-    margin: 2rem;
-    background-color: aliceblue;
-    padding: 10px 25px;
-    text-transform: uppercase;
+  .h2-styled {
+    font-size: 2rem;
   }
+}
