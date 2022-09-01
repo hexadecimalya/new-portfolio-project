@@ -33,7 +33,7 @@ h1 {
   text-align: left;
 }
 
-.navbar-style{
+.navbar-style {
   background-color: #020024;
 }
 
@@ -76,13 +76,13 @@ img:hover {
   margin: 1rem;
 }
 
-.btn-wrapper{
+.btn-wrapper {
   display: flex;
   justify-content: center;
 }
 
-@media(max-width: 768px){
-  .main-header{
+@media (max-width: 768px) {
+  .main-header {
     margin-bottom: 0;
   }
   h1 {
@@ -102,3 +102,10 @@ img:hover {
   }
 }
 
+.img-rounded {
+  border-radius: 50%;
+}
+
+.about-paragraph{
+  font-size: 2rem;
+}
