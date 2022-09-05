@@ -80,6 +80,10 @@ img:hover {
   display: flex;
   justify-content: center;
 }
+.about-paragraph {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
 
 @media (max-width: 768px) {
   .main-header {
@@ -100,12 +104,64 @@ img:hover {
   .h2-styled {
     font-size: 2rem;
   }
+  .nav-pills .nav-link {
+    font-size: 0.8rem;
+  }
+  .tab-content {
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    text-align: justify;
+    background-color: var(--secondary-color);
+  }
 }
 
-.img-rounded {
-  border-radius: 50%;
+@media (max-width: 1399px) {
+  .about-paragraph {
+    font-size: 1.4rem;
+  }
 }
 
-.about-paragraph{
-  font-size: 2rem;
+@media (max-width: 1200px) {
+  .about-paragraph {
+    font-size: 1.2rem;
+  }
+  .head-text-about {
+    padding: 20px;
+  }
+}
+
+.main-header-about {
+  color: var(--primary-color);
+}
+
+.icons {
+  font-size: 3rem;
+}
+.nav-pills .nav-link {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 0;
+  border: 1px solid black;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link:active {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.nav-pills .nav-link:not(:active) {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.nav-pills .nav-link:focus {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.contact-wrapper {
+  display: flex;
+  color: #001343;
 }
