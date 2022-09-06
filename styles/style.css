@@ -19,12 +19,7 @@ h1 {
 
 .main-header {
   text-align: center;
-  background: linear-gradient(
-    177deg,
-    rgb(2, 0, 36) 23%,
-    rgba(0, 19, 67, 1) 48%,
-    rgba(64, 0, 255, 1) 98%
-  );
+  background-color: #001343;
 }
 
 .main-header p {
@@ -83,6 +78,13 @@ img:hover {
 .about-paragraph {
   font-size: 1.8rem;
   font-weight: 200;
+  color: var(--secondary-color);
+}
+
+.highlited {
+  background-color: #001343;
+  text-align: justify;
+  padding-right: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -91,6 +93,10 @@ img:hover {
   }
   h1 {
     font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
   }
   .main-header h2 {
     font-size: 1.5rem;
@@ -111,7 +117,7 @@ img:hover {
     font-size: 1.1rem;
     padding: 1.5rem;
     text-align: justify;
-    background-color: var(--secondary-color);
+    background-color: #fff;
   }
 }
 
@@ -127,6 +133,9 @@ img:hover {
   }
   .head-text-about {
     padding: 20px;
+  }
+  h1 {
+    font-size: 2.3rem;
   }
 }
 
@@ -159,18 +168,17 @@ img:hover {
 .nav-pills .nav-link:focus {
   background-color: var(--secondary-color);
   color: #020024;
-} 
+}
 
 .nav-pills .nav-link:hover {
   background-color: var(--secondary-color);
   color: #020024;
-} 
+}
 
 .contact-wrapper {
   display: flex;
   color: #001343;
 }
-
 
 .main-header-work {
   color: var(--primary-color);
