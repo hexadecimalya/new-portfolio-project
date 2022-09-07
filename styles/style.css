@@ -184,3 +184,8 @@ img:hover {
   color: var(--primary-color);
   text-align: center;
 }
+
+
+.contact-link{
+  color: #020024;
+}
